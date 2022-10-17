@@ -17,6 +17,11 @@
             {{ $post->slug}}
         </div>
 
+        <div>
+            <span class="font-weight-bold">Category</span>
+            {{ $post->category}}
+        </div>
+
         <a href="{{ route('admin.posts.index') }}" class="btn btn-primary" >BACK</a>
 
     </div>
